@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hari">
+        <meta name="Description" content="Practicing HTML">
+        <link rel="icon" href="html5.png" type="image/x-icon"> 
+        <link rel="stylesheet" href="main.css" type="text/CSS">
+        <title>Tabels</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Daily Schedule</h1>
+            <nav aria-labelledby="navbar">
+                <h2 id="navbar">Content</h2>
+                <ul>
+                    <li>
+                        <a href="#html">HTML</a> 
+                    </li>
+                    <li>
+                        <a href="#geopark">Overseeing a hotel</a> 
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <hr>
+        <main>
+
+            <article id="html">
+
+                <h2>Learning HTML</h2>
+                <p>I've been learning html since first year of my college. Even though this is my first webpage</p>
+
+                <section>
+                    <h3>Getting started with HTML</h3>
+                    <figure>
+                        <img src="img/html.webp" alt="html_logo" title="HTML Logo" width="300" height="300">
+                        <figcaption>HTML LOGO</figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption>Example for HTML code</figcaption>
+                        <p>
+                            <code>&lt;p&gt; Hello World &lt;/p&gt; </code>
+                        </p>
+                    </figure>
+                </section>
+
+                <section>
+                    <h3>Contents Of HTML</h3>
+                    <ol>
+                        <li>Introduction</li>
+                        <li>Head</li>
+                        <li>Text Basics</li>
+                        <li>List Basics</li>
+                        <li>Links</li>
+                        <li>Image Links</li>
+                        <li>Semmantics</li>
+                        <li>Table</li>
+                        <li>Forms</li>
+                    </ol>
+
+                    <aside>
+                        <h3>Q?A_</h3>
+                        <details>
+                            <summary>
+                                What time you will <mark>start programming</mark> everyday?
+                            </summary>
+                            <p>I start at <time datetime="10:00">10 am</time> and complete after <time datetime="PT3H">3 hours</time> everyday</p>
+                        </details>
+                    </aside>
+
+                    <br>
+
+                    <table>
+                        <caption>My Schedule</caption>
+                        <thead>
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Activity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="2">Morning</th>
+                                <td>
+                                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                                </td>
+                                <td>
+                                    write code
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                                </td>
+                                <td>
+                                    Rest
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Afternoon</th>
+                                <td>
+                                    <time datetime="12:00">12pm</time>-<time datetime="13:00">1pm</time>
+                                </td>
+                                <td>
+                                    lunch
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2" colspan="2">Rest of the day</th>
+                                <td colspan="1"> Travelling</td>
+                            </tr>
+                            <tr>
+                                <td colspan="1">Sleeping</td>
+                            </tr>  
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Eat, Code,Travel and Sleep</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+
+            </article>
+            
+            <hr>
+
+            <article id="geopark">
+                <h2>Geo Park</h2>
+                <p>I visit Geo Park daily to get idea about the current society. Because different people's with different personalities are visiting there regularly.</p>
+
+                <section>
+                    <h3>Images of Geo Park</h3>
+                    <figure>
+                        <img src="img/Entrance.jpeg" alt="entrance_of_the_hotel" title="Geo Park Entrance" width="300" height="210">
+                        
+                        <img src="img/Reception.jpeg" alt="recption_of_the_hotel" title="Geo Park Reception" width="300" height="210">
+
+                        <img src="img/Backyard.jpeg" alt="recption_of_the_hotel" title="Geo Park Reception" width="300" height="210">
+            
+                        <figcaption>
+                            Entrance, Reception and Backyard
+                        </figcaption>
+                    </figure>
+                </section>
+
+                <section>
+                    <h3>Rooms</h3>
+                    <ul>
+                        <li>Double Room</li>
+                        <li>Suite Room</li>
+                    </ul>
+                    <figure>
+                        <img src="img/DoubleRoom.jpg" alt="double_room" title = "Double Room" width="300" height="210">
+                        <figcaption>
+                            Double Room at Geo Park
+                        </figcaption>
+                    </figure>
+            
+                </section>
+
+            </article>
+        </main>
+        <footer>
+            <p>
+            &lt;&lt;&lt;&copy;<a href="about.html">Hari</a>&gt;&gt;&gt;
+            </p>
+        </footer>
+    </body>
+
+</html>
